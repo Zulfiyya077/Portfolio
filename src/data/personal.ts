@@ -8,7 +8,7 @@ export const personalInfo = {
   name: "Zulfiyya Mammadova",
   title: "Frontend Developer",
   phone: "(+994) 51 344 84 77",
-  email: "zulfiyyamammadova07@gmail.com",
+  email: "mammadovazulfiyya07@gmail.com",
   linkedin: "https://www.linkedin.com/in/zulfiyya-mammadova-n/",
   github: "https://github.com/Zulfiyya077",
   bio: "Complex problem-solver with analytical and driven mindset. Dedicated to achieving demanding development objectives according to tight schedules while producing impeccable code. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals.",
@@ -16,17 +16,38 @@ export const personalInfo = {
     {
       company: "Rezneed",
       role: "Frontend Developer",
-      period: "Feb, 2026 – Present",
+      period: "Feb 2026 – Present",
+      details: [
+        "Working on a reservation and booking management platform using React, Next.js, and React Native.",
+        "Developing responsive and scalable user interfaces for web and mobile applications.",
+        "Building reusable frontend components and improving application performance.",
+        "Collaborating with backend developers and designers to implement CRM and booking management features.",
+        "Integrating APIs and enhancing user experience for reservation workflows and management systems."
+      ]
     },
     {
       company: "Code World",
-      role: "Instructor",
-      period: "Dec, 2025 – Present",
+      role: "Frontend Development Instructor",
+      period: "Dec 2025 – Present",
+      details: [
+        "Teaching Frontend Development technologies including HTML, CSS, JavaScript, Bootstrap, React, and React fundamentals.",
+        "Preparing practical exercises, coding tasks, and real-world projects for students.",
+        "Helping students build responsive and modern web applications.",
+        "Explaining core programming concepts, component-based architecture, hooks, props, state management, and frontend best practices.",
+        "Mentoring beginner developers and supporting their learning journey in software development."
+      ]
     },
     {
       company: "Intern Intelligence",
-      role: "Intern",
-      period: "Feb, 2025 – Mar, 2025",
+      role: "Frontend Developer Intern",
+      period: "Feb 2025 – Mar 2025",
+      details: [
+        "Participated in real-world frontend development tasks and internship projects.",
+        "Developed responsive user interfaces using HTML, CSS, JavaScript, and Bootstrap.",
+        "Collaborated with team members to improve UI/UX and frontend functionality.",
+        "Gained practical experience in modern web development workflows, debugging, and teamwork.",
+        "Improved technical and problem-solving skills through hands-on project experience."
+      ]
     },
   ],
   certificates: [
@@ -66,9 +87,30 @@ export const personalInfo = {
       description: "Advanced certification in TypeScript, focus on type safety and scalable architecture."
     },
   ],
-  skills: [
-    "HTML5", "CSS3", "Bootstrap", "JavaScript (ES6+)", "React.js", "React Native",
-    "TypeScript", "Next.js", "Redux Toolkit", "UI Libraries", 
-    "API Integration", "Responsive Design", "Version Control (Git)"
+  skillCategories: [
+    {
+      title: "Frontend Technologies",
+      skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"]
+    },
+    {
+      title: "Frontend Frameworks & Libraries",
+      skills: ["React.js", "Next.js", "React Native", "Redux Toolkit", "Zustand"]
+    },
+    {
+      title: "UI & Styling",
+      skills: ["Bootstrap", "Tailwind CSS", "Ant Design", "Responsive Web Design"]
+    },
+    {
+      title: "API & Development Tools",
+      skills: ["REST API Integration", "Postman", "Git", "GitHub", "Version Control"]
+    },
+    {
+      title: "Collaboration & Project Management",
+      skills: ["Slack", "Trello"]
+    },
+    {
+      title: "Design & Prototyping",
+      skills: ["Figma"]
+    }
   ]
 };

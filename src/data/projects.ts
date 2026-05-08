@@ -1,6 +1,6 @@
 import type { IconType } from 'react-icons';
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaBootstrap } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiRedux } from 'react-icons/si';
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaBootstrap, FaFigma, FaSlack, FaTrello, FaProjectDiagram } from 'react-icons/fa';
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiRedux, SiAntdesign, SiPostman, SiGithub } from 'react-icons/si';
 import { MdDevices, MdApi } from 'react-icons/md';
 import pacmanImg from '../assets/pacman.png';
 import tictactoeImg from '../assets/tictactoe.png';
@@ -30,18 +30,33 @@ export interface Project {
 }
 
 export const techStack: Tech[] = [
+  // Frontend Technologies
   { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
   { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
   { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
   { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
+  
+  // Frameworks & Libraries
   { name: 'React.js', icon: FaReact, color: '#61DAFB' },
   { name: 'Next.js', icon: SiNextdotjs, color: '#ffffff' },
+  { name: 'React Native', icon: FaReact, color: '#61DAFB' },
+  { name: 'Redux Toolkit', icon: SiRedux, color: '#764ABC' },
+  { name: 'Zustand', icon: FaProjectDiagram, color: '#433422' },
+
+  // UI & Styling
   { name: 'Bootstrap', icon: FaBootstrap, color: '#7952B3' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
-  { name: 'Redux Toolkit', icon: SiRedux, color: '#764ABC' },
-  { name: 'API Integration', icon: MdApi, color: '#4CAF50' },
+  { name: 'Ant Design', icon: SiAntdesign, color: '#0170FE' },
   { name: 'Responsive Design', icon: MdDevices, color: '#FF9800' },
-  { name: 'Version Control', icon: FaGitAlt, color: '#F05032' },
+
+  // Tools & Others
+  { name: 'REST API', icon: MdApi, color: '#4CAF50' },
+  { name: 'Postman', icon: SiPostman, color: '#FF6C37' },
+  { name: 'Git', icon: FaGitAlt, color: '#F05032' },
+  { name: 'GitHub', icon: SiGithub, color: '#ffffff' },
+  { name: 'Figma', icon: FaFigma, color: '#F24E1E' },
+  { name: 'Slack', icon: FaSlack, color: '#4A154B' },
+  { name: 'Trello', icon: FaTrello, color: '#0079BF' },
 ];
 
 export const projects: Project[] = [
